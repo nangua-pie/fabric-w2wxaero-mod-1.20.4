@@ -10,13 +10,10 @@ import xaero.minimap.XaeroMinimap;
 import net.blay09.mods.balm.api.Balm;
 import net.blay09.mods.waystones.api.Waystone;
 import net.blay09.mods.waystones.api.event.WaystoneActivatedEvent;
-import net.blay09.mods.waystones.api.event.WaystoneInitializedEvent;
 import net.blay09.mods.waystones.api.event.WaystoneRemovedEvent;
-import net.blay09.mods.waystones.api.event.WaystoneUpdateReceivedEvent;
 import net.blay09.mods.waystones.api.event.WaystoneUpdatedEvent;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class W2wXaeroModClient implements ClientModInitializer {
 	@Override
