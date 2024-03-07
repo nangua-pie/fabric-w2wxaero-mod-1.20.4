@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "w2wxaero",
+	"version": "${version}",
+	"name": "Waystone2Waypoint4Xaero'sMap",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Syed"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/w2wxaero/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.syedpers.w2wxaero.W2wXaeroMod"
+		],
+		"client": [
+			"com.syedpers.w2wxaero.W2wXaeroModClient"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
