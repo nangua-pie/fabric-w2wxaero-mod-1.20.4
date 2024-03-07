@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"w2wxaero.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "w2wxaero.client.mixins.json",
 			"environment": "client"
 		}
 	],

@@ -3,7 +3,7 @@
 	"package": "com.syedpers.w2wxaero.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"W2wXaeroModClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
